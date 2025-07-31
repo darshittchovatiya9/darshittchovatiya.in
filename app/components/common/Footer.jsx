@@ -8,6 +8,9 @@ import { GoArrowUpRight } from "react-icons/go";
 import TailwindCSS from "../../resources/svgs/tailwindCSS.svg";
 import NextJS from "../../../public/next.svg";
 import Vercel from "../../../public/vercel.svg";
+import GitHub from "../../../public/Github.png";
+import MUI from "../../../public/MUI.png";
+
 
 const Footer = () => {
   return (
@@ -47,6 +50,8 @@ const Footer = () => {
                 logo: TailwindCSS,
                 url: "https://tailwindcss.com",
               },
+              { name: "GitHub", logo: GitHub, url: "https://github.com" },
+              { name: "MUI", logo: MUI, url: "https://mui.com" },
               { name: "Vercel", logo: Vercel, url: "https://vercel.com" },
             ].map((tech) => (
               <a
@@ -77,7 +82,7 @@ const Footer = () => {
           className="inline-flex items-center space-x-1 text-white/85 hover:text-[#FF3B00] transition-colors duration-200 group"
         >
           <span className="text-sm sm:text-base">
-            Brought to you by Abhi Varde
+            Brought to you by Darshit Chovatiya
           </span>
           <GoArrowUpRight
             size={16}

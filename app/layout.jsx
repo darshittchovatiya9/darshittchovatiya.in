@@ -9,14 +9,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Abhi Varde | Software Developer",
-    template: "%s | Abhi Varde",
+    default: "Darshit Chovatiya | Software Developer",
+    template: "%s | Darshit Chovatiya",
   },
   description: "A passionate Software Developer from India.",
   openGraph: {
-    title: "Abhi Varde",
+    title: "Darshit Chovatiya",
     description: "A passionate Software Developer from India.",
-    siteName: "Abhi Varde",
+    siteName: "Darshit Chovatiya",
     url: "https://abhivarde.in",
     type: "website",
     images: [
@@ -28,9 +28,9 @@ export const metadata = {
       },
     ],
     profile: {
-      firstName: "Abhi",
-      lastName: "Varde",
-      username: "Abhi Varde",
+      firstName: "Darshit",
+      lastName: "Chovatiya",
+      username: "Darshit Chovatiya",
       gender: "male",
     },
   },
@@ -42,13 +42,13 @@ export const metadata = {
     images: "https://abhivarde.in/default-og-image.png",
   },
   instagram: {
-    url: "https://www.instagram.com/iamabhi_189",
+    url: "https://www.instagram.com/_darshit_07_",
   },
   robots: "index,follow",
   canonical: "https://abhivarde.in",
   keywords:
     "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
-  author: "Abhi Varde",
+  author: "Darshit Chovatiya",
 };
 
 export default function RootLayout({ children }) {

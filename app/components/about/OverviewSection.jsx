@@ -51,7 +51,7 @@ const OverviewSection = () => {
           </div>
           <div className="mt-4 flex-grow">
             <p className="text-base sm:text-lg tracking-wide leading-relaxed mb-4">
-              Namaste!🙏 Abhivarde.in is more than a portfolio; it's a window
+              Namaste!🙏 Darshitchovatiya.in is more than a portfolio; it's a window
               into my world, where passion meets purpose. Discover my work.
             </p>
           </div>

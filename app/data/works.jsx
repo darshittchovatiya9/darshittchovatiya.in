@@ -1,29 +1,33 @@
-import Uniqual from "../resources/images/works/uniqual.jpeg";
+// import Uniqual from "../resources/images/works/uniqual.jpeg";
 import SolGuruz from "../resources/images/works/solguruz.jpeg";
 import LetsGrowMore from "../resources/images/works/letsgrowmore.jpeg";
 import Anon from "../resources/images/works/anonGlobalFoundation.jpeg";
+import KivaInfotech from "../resources/images/works/kivainfotech.jpg";
+import JBS from "../resources/images/works/JBS.png";
+import LogWinTech from "../resources/images/works/LogWinTech.png"
+
 
 const works = [
   {
-    image: Uniqual,
-    companyName: "Uniqual iTech",
-    role: "Jr Web Developer",
-    startAt: "Oct 2023",
+    image: KivaInfotech,
+    companyName: "Kiva infoTech",
+    role: "MERN Stack Developer",
+    startAt: "Mar 2024",
     endAt: "Present",
   },
   {
-    image: SolGuruz,
-    companyName: "SolGuruz",
+    image: JBS,
+    companyName: "JBS Techonology",
     role: "Software Engineer Intern",
-    startAt: "Feb 2023",
-    endAt: "Jun 2023",
+    startAt: "Oct 2023",
+    endAt: "Mar 2024",
   },
   {
-    image: LetsGrowMore,
-    companyName: "LetsGrowMore",
+    image: LogWinTech,
+    companyName: "LogWinTech",
     role: "Web Development Intern",
-    startAt: "Jun 2022",
-    endAt: "Jul 2022",
+    startAt: "Mar 2023",
+    endAt: "Oct 2022",
   },
   {
     image: Anon,
