@@ -1,7 +1,5 @@
-// import Uniqual from "../resources/images/works/uniqual.jpeg";
-import SolGuruz from "../resources/images/works/solguruz.jpeg";
-import LetsGrowMore from "../resources/images/works/letsgrowmore.jpeg";
-import Anon from "../resources/images/works/anonGlobalFoundation.jpeg";
+
+// import SkyWin from "../resources/images/works/Skywin.png";
 import KivaInfotech from "../resources/images/works/kivainfotech.jpg";
 import JBS from "../resources/images/works/JBS.png";
 import LogWinTech from "../resources/images/works/LogWinTech.png"
@@ -26,16 +24,16 @@ const works = [
     image: LogWinTech,
     companyName: "LogWinTech",
     role: "Web Development Intern",
-    startAt: "Mar 2023",
-    endAt: "Oct 2022",
+    startAt: "May 2022",
+    endAt: "Oct 2023",
   },
-  {
-    image: Anon,
-    companyName: "Anon Global foundation",
-    role: "Research Intern",
-    startAt: "Jan 2022",
-    endAt: "Feb 2022",
-  },
+  // {
+  //   image: SkyWin,
+  //   companyName: "Skywin IT Academy",
+  //   role: "Research Intern-Trainee",
+  //   startAt: "Dec 2021",
+  //   endAt: "Nov 2022",
+  // },
 ];
 
 export default works;

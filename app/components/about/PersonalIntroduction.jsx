@@ -7,21 +7,21 @@ import { LuGlobe, LuRocket } from "react-icons/lu";
 import HeroImage from "../../resources/images/Me.jpg";
 
 const translations = [
-  { country: "English", language: "Hey, I'm Darshit" },
-  { country: "Hindi", language: "नमस्ते, मैं दर्शित हूँ" },
-  { country: "Gujarati", language: "હાય, હું દર્શિત છું" },
-  { country: "Spanish", language: "Hola, soy Darshit" },
-  { country: "French", language: "Salut, je suis Darshit" },
-  { country: "German", language: "Hallo, ich bin Darshit" },
-  { country: "Japanese", language: "こんにちは、ダルシットです" },
-  { country: "Chinese", language: "嗨，我是 Darshit" },
-  { country: "Arabic", language: "مرحبا، أنا دارشيت" },
-  { country: "Italian", language: "Ciao, sono Darshit" },
-  { country: "Russian", language: "Привет, я Даршит" },
+  { language: "English", message: "Hey, I'm Darshit" },
+  { language: "Hindi", message: "नमस्ते, मैं दर्शित हूँ" },
+  { language: "Gujarati", message: "હાય, હું દર્શિત છું" },
+  { language: "Spanish", message: "Hola, soy Darshit" },
+  { language: "French", message: "Salut, je suis Darshit" },
+  { language: "German", message: "Hallo, ich bin Darshit" },
+  { language: "Japanese", message: "こんにちは、ダルシットです" },
+  { language: "Chinese", message: "嗨，我是 Darshit" },
+  { language: "Arabic", message: "مرحبا، أنا دارشيت" },
+  { language: "Italian", message: "Ciao, sono Darshit" },
+  { language: "Russian", message: "Привет, я Даршит" },
 ];
 
 const PersonalIntroduction = () => {
-  const [index, setIndex] = useState(0);
+    const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -30,7 +30,6 @@ const PersonalIntroduction = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const { language, country } = translations[index];
   return (
     <div className="mt-8 md:mt-10">
       <div className="relative overflow-hidden rounded-3xl shadow-2xl">
@@ -49,7 +48,7 @@ const PersonalIntroduction = () => {
         <div className="relative z-10 flex flex-col p-6 sm:p-8">
           <div className="text-white max-w-xl">
             <motion.h2
-              className="font-medium uppercase tracking-wider flex items-center text-sm sm:text-base"
+              className="font-medium uppercase tracking-wider flex flex-end items-center text-sm sm:text-base"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -59,19 +58,19 @@ const PersonalIntroduction = () => {
             </motion.h2>
             <AnimatePresence mode="wait">
               <motion.h1
+                key={translations[index].language}
                 className="mt-3 sm:mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
+                transition={{ duration: 0.4, delay: 0.1 }}
               >
                 <span className="block text-sm sm:text-base text-gray-300 mb-1 uppercase">
-                  {country}
+                  {translations[index].language}
                 </span>
-                {language}
+                {translations[index].message}
                 <span className="animate-wave inline-block ml-2">👋</span>
               </motion.h1>
             </AnimatePresence>
-
             <motion.p
               className="mt-4 sm:mt-6 text-base sm:text-lg font-light leading-relaxed max-w-2xl"
               initial={{ opacity: 0, y: 20 }}
