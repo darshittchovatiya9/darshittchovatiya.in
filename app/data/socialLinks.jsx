@@ -16,12 +16,6 @@ const socialLinks = [
     icon: <FaLinkedinIn size={20} color="#FFFFFF" />,
   },
   {
-    id: "email",
-    name: "Email",
-    url: "mailto:darshit.jbs07@gmail.com",
-    icon: <MdOutlineMail size={20} color="#FFFFFF" />,
-  },
-  {
     id: "medium",
     name: "Medium",
     url: "https://medium.com/@darshit.patel07",
