@@ -21,7 +21,7 @@ const translations = [
 ];
 
 const PersonalIntroduction = () => {
-    const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -46,60 +46,41 @@ const PersonalIntroduction = () => {
         </div>
 
         <div className="relative z-10 flex flex-col p-6 sm:p-8">
-          <div className="text-white max-w-xl">
-            <motion.h2
-              className="font-medium uppercase tracking-wider flex flex-end items-center text-sm sm:text-base"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <LuGlobe className="mr-2" size={18} />
-              About me
-            </motion.h2>
-            <AnimatePresence mode="wait">
-              <motion.h1
-                key={translations[index].language}
-                className="mt-3 sm:mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 0.1 }}
-              >
-                <span className="block text-sm sm:text-base text-gray-300 mb-1 uppercase">
-                  {translations[index].language}
-                </span>
-                {translations[index].message}
-                <span className="animate-wave inline-block ml-2">👋</span>
-              </motion.h1>
-            </AnimatePresence>
-            <motion.p
-              className="mt-4 sm:mt-6 text-base sm:text-lg font-light leading-relaxed max-w-2xl"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              Passionate Frontend Developer from Surat, pushing the boundaries
-              of web technology to create immersive digital experiences.
-            </motion.p>
-          </div>
-
           <motion.div
-            className="mt-auto pt-8 sm:pt-10 max-w-xl"
+            className="mt-[175px] pt-8 sm:pt-10 max-w-xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <div className="bg-white/10 backdrop-blur-md rounded-3xl p-4 sm:p-6 text-white">
               <h2 className="font-medium uppercase tracking-wider flex items-center text-sm sm:text-base">
-                <LuRocket className="mr-2" size={18} />
-                My Mission
+                <LuGlobe className="mr-2" size={18} />
+                About me
               </h2>
-              <p className="mt-3 sm:mt-4 text-base sm:text-lg font-light leading-relaxed">
-                Bridging the Gap Between Design and Development: Where
-                creativity meets functionality, and innovation drives progress.
-              </p>
-              <p className="mt-4 sm:mt-6 text-base sm:text-lg italic">
-                Keep moving, don't settle. 🚀
-              </p>
+              <AnimatePresence mode="wait">
+                <motion.h1
+                  key={translations[index].language}
+                  className="mt-3 sm:mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: 0.1 }}
+                >
+                  <span className="block text-sm sm:text-base text-gray-300 mb-1 uppercase">
+                    {translations[index].language}
+                  </span>
+                  {translations[index].message}
+                  <span className="animate-wave inline-block ml-2">👋</span>
+                </motion.h1>
+              </AnimatePresence>
+              <motion.p
+                className="mt-4 sm:mt-6 text-base sm:text-lg font-light leading-relaxed max-w-2xl"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                Passionate Frontend Developer from Surat, pushing the boundaries
+                of web technology to create immersive digital experiences.
+              </motion.p>
             </div>
           </motion.div>
         </div>

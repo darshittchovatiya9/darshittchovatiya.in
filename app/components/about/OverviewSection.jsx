@@ -51,8 +51,8 @@ const OverviewSection = () => {
           </div>
           <div className="mt-4 flex-grow">
             <p className="text-base sm:text-lg tracking-wide leading-relaxed mb-4">
-              Namaste!🙏 Darshitchovatiya.in is more than a portfolio; it's a window
-              into my world, where passion meets purpose. Discover my work.
+              Namaste! 🙏 My journey is more than a portfolio; it's a window 
+              into my world, where passion meets purpose. Explore my creations.
             </p>
           </div>
           <motion.button
@@ -70,7 +70,7 @@ const OverviewSection = () => {
           <div className="absolute inset-0">
             {!isVideoLoaded && (
               <Image
-                src="/default-syncui-image.png"
+                src="/MERN-Stack-Authentication-System.png"
                 layout="fill"
                 objectFit="cover"
                 alt="Video placeholder"
@@ -78,7 +78,7 @@ const OverviewSection = () => {
             )}
             <video
               ref={videoRef}
-              src="/SyncUI.mov"
+              src="/AuthSpark.mov"
               autoPlay
               loop
               muted
@@ -95,21 +95,20 @@ const OverviewSection = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
           >
             <h3 className="text-lg sm:text-xl font-bold mb-1 text-shadow-lg">
-              Building Sync UI 🚀
+              Building a Secure MERN Stack Authentication System 🚀
             </h3>
             <p className="text-sm sm:text-base text-shadow-md mb-2">
-              A sleek UI library for Design Engineers, offering beautifully
-              designed components built with MUI and Framer Motion.
+              A secure MERN stack authentication system with JWT-based login, registration, email verification, and OTP password reset.
             </p>
             <motion.a
-              href="https://syncui.design"
+              href="https://medium.com/@darshit.patel07/building-a-secure-mern-stack-authentication-system-with-jwt-email-verification-and-otp-based-bafa828d0eb1"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-3 py-1 bg-white/20 hover:bg-white/30 rounded-full text-sm font-medium transition-colors duration-200"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              syncui.design <LuExternalLink className="ml-1 w-4 h-4" />
+              MERN Stack Authentication System <LuExternalLink className="ml-1 w-4 h-4" />
             </motion.a>
           </motion.div>
         </motion.div>
