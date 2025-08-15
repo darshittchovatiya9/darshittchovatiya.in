@@ -9,7 +9,9 @@ const CommandBarInvokar = () => {
   const { query } = useKBar();
 
   const pathname = usePathname();
-  const is404 = !["/", "/guestbook", "/blog", "/projects"].includes(pathname);
+  const is404 = !["/", "/blog", "/projects"].includes(pathname);
+
+  // , "/guestbook"
 
   if (is404) return null;
 

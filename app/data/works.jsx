@@ -1,6 +1,6 @@
 
 // import SkyWin from "../resources/images/works/Skywin.png";
-import KivaInfotech from "../resources/images/works/kivainfotech.jpg";
+import KivaInfotech from "../resources/images/works/kivainfotech.png";
 import JBS from "../resources/images/works/JBS.png";
 import LogWinTech from "../resources/images/works/LogWinTech.png"
 
