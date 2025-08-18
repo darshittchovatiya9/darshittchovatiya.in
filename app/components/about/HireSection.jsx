@@ -12,7 +12,7 @@ const HireSection = () => {
           NEED A SKILLED DEVELOPER?
         </h2>
         <Link
-          href="mailto:abhivarde.contact@gmail.com?subject=Developer%20Inquiry%20from%20abhivarde.in"
+          href="mailto:darshitc18@gmail.com"
           className="flex items-center space-x-2 bg-[#FF3B00] text-white px-4 py-2 rounded-xl hover:bg-[#E63500] transition-colors duration-300"
         >
           <LuMail size={22} />

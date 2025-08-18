@@ -1,8 +1,6 @@
-import Trello from "../resources/images/project/trello.png";
-
-import ECommerceAdmin from "../resources/images/project/e-commerce-admin.png";
-import ECommerceWebsite from "../resources/images/project/e-commerce-website.png";
-import MERNStackAuthentication from "../resources/images/project/mern-stack-authentication-system.png";
+import ECommerceAdmin from "../resources/images/project/ECommerceAdmin.png";
+import ECommerceWebsite from "../resources/images/project/ECommerceWebsite.png";
+import MERNStackAuthentication from "../resources/images/project/MERNStackAuthenticationSystem.png";
 import Hotstar from "../resources/images/project/hotstar.png";
 import IgInsta from "../resources/images/project/IgInsta.png";
 
