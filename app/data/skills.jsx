@@ -11,8 +11,6 @@ import TypeScript from "../resources/svgs/typeScript.svg";
 import React from "../resources/svgs/react.svg";
 import Redux from "../resources/svgs/redux.svg";
 import JavaScript from "../resources/svgs/javaScript.svg";
-import Python from "../resources/svgs/python.svg";
-import GoogleCloud from "../resources/svgs/cloud.svg";
 import HTML from "../resources/svgs/html.svg";
 import CSS from "../resources/svgs/css.svg";
 import MySQL from "../resources/svgs/sql.svg";
@@ -36,14 +34,12 @@ const skills = [
   // Back-end
   { image: Node, title: "Node.js" },
   { image: MySQL, title: "MySQL" },
-  { image: Python, title: "Python" },
 
   // Others
   { image: Github, title: "Github" },
   { image: GitLab, title: "Gitlab" },
   { image: Vercel, title: "Vercel" },
   { image: Shopify, title: "Shopify" },
-  { image: GoogleCloud, title: "Google Cloud" },
 ];
 
 export default skills;
