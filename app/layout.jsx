@@ -17,14 +17,14 @@ export const metadata = {
     title: "Darshit Chovatiya",
     description: "A passionate Software Developer from India.",
     siteName: "Darshit Chovatiya",
-    url: "https://abhivarde.in",
+    url: "https://darshitchovatiya-in.vercel.app/",
     type: "website",
     images: [
       {
-        url: "https://abhivarde.in/default-og-image.png",
+        url: "https://darshitchovatiya.in/default-og-image.png",
         width: 800,
         height: 600,
-        alt: "Abhi Varde",
+        alt: "Darshit Chovatiya",
       },
     ],
     profile: {
@@ -34,18 +34,11 @@ export const metadata = {
       gender: "male",
     },
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@varde_abhi",
-    title: "Abhi Varde",
-    description: "A passionate Software Developer from India.",
-    images: "https://abhivarde.in/default-og-image.png",
-  },
   instagram: {
     url: "https://www.instagram.com/_darshit_07_",
   },
   robots: "index,follow",
-  canonical: "https://abhivarde.in",
+  canonical: "https://darshitchovatiya-in.vercel.app/",
   keywords:
     "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
   author: "Darshit Chovatiya",
