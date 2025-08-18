@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
-import { LuGlobe, LuRocket } from "react-icons/lu";
-import HeroImage from "../../resources/images/Me.jpg";
+import { LuGlobe,  } from "react-icons/lu";
+import HeroImage from "../../resources/images/hero.jpg";
 
 const translations = [
   { language: "English", message: "Hey, I'm Darshit" },
