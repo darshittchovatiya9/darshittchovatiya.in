@@ -5,7 +5,7 @@ import Projects from "../components/project/Projects";
 export const metadata = {
   title: "Projects",
   description:
-    "Explore the projects and work done by Abhi Varde, showcasing a variety of skills in software engineering.",
+    "Explore the projects and work done by Darshit Choavtiya, showcasing a variety of skills in software engineering.",
 };
 
 const Project = () => {

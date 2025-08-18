@@ -21,7 +21,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://darshitchovatiya.in/default-og-image.png",
+        url: "https://darshitchovatiya-in.vercel.app/default-og-image.png",
         width: 800,
         height: 600,
         alt: "Darshit Chovatiya",

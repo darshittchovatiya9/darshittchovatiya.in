@@ -5,7 +5,7 @@ import Blogs from "../components/blog/Blogs";
 export const metadata = {
   title: "Blog",
   description:
-    "Read insightful articles and updates from Abhi Varde on software engineering, technology trends, and more.",
+    "Read insightful articles and updates from Darshit Choavtiya on software engineering, technology trends, and more.",
 };
 
 const Blog = () => {
