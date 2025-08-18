@@ -56,8 +56,6 @@ export default function RootLayout({ children }) {
         />
         <meta name="description" content={metadata.description} />
         <meta name="robots" content={metadata.robots} />
-        <meta name="twitter:card" content={metadata.twitter.card} />
-        <meta name="twitter:site" content={metadata.twitter.site} />
         <meta property="og:title" content={metadata.openGraph.title} />
         <meta
           property="og:description"
