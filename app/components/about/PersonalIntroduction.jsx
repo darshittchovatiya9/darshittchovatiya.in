@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { LuGlobe,  } from "react-icons/lu";
-import HeroImage from "../../resources/images/heroimage.jpg";
+
 
 const translations = [
   { language: "English", message: "Hey, I'm Darshit" },
@@ -35,7 +35,7 @@ const PersonalIntroduction = () => {
       <div className="relative overflow-hidden rounded-3xl shadow-2xl">
         <div className="absolute inset-0 z-0">
           <Image
-            src={HeroImage}
+            src="/images/heroimage.jpg"
             alt="Background"
             layout="fill"
             objectFit="cover"
