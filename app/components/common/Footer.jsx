@@ -4,7 +4,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import socialLinks from "@/app/data/socialLinks";
-import { GoArrowUpRight } from "react-icons/go";
 import TailwindCSS from "../../resources/svgs/tailwindCSS.svg";
 import NextJS from "../../../public/next.svg";
 import Vercel from "../../../public/vercel.svg";
@@ -73,22 +72,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-[#333] flex flex-col sm:flex-row justify-between items-center">
+      <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-[#333] flex flex-col sm:flex-row justify-center items-center">
         <p className="text-white/80 mb-3 sm:mb-0 text-sm sm:text-base">
           &copy; {new Date().getFullYear()} All rights reserved.
         </p>
-        <Link
-          href="https://twitter.com/varde_abhi"
-          className="inline-flex items-center space-x-1 text-white/85 hover:text-[#FF3B00] transition-colors duration-200 group"
-        >
-          <span className="text-sm sm:text-base">
-            Brought to you by Darshit Chovatiya
-          </span>
-          <GoArrowUpRight
-            size={16}
-            className="text-[#FF3B00] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200"
-          />
-        </Link>
       </div>
     </footer>
   );
