@@ -35,7 +35,7 @@ const PersonalIntroduction = () => {
       <div className="relative overflow-hidden rounded-3xl shadow-2xl">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/heroimage.jpg"
+            src="/Me.jpg"
             alt="Background"
             layout="fill"
             objectFit="cover"
