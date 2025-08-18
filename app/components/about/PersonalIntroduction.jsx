@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { LuGlobe, LuRocket } from "react-icons/lu";
-import HeroImage from "../../resources/images/me.jpg";
+import HeroImage from "../../resources/images/Me.jpg";
 
 const translations = [
   { language: "English", message: "Hey, I'm Darshit" },
