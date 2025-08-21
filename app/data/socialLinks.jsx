@@ -1,5 +1,5 @@
 import { LuGithub } from "react-icons/lu";
-import { MdOutlineMail } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa";
 import {FaLinkedinIn, FaMedium} from "react-icons/fa6";
 
 const socialLinks = [
@@ -14,6 +14,12 @@ const socialLinks = [
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/darshit-chovatiya-0672a827a",
     icon: <FaLinkedinIn size={20} color="#FFFFFF" />,
+  },
+  {
+    id: "instagram",
+    name: "Instagram",
+    url: "https://www.instagram.com/_darshit_07_",
+    icon: <FaInstagram  size={20} color="#FFFFFF" />,
   },
   {
     id: "medium",
