@@ -1,8 +1,8 @@
-import ECommerceAdmin from "../resources/images/project/ECommerceAdmin.png";
-import ECommerceWebsite from "../resources/images/project/ECommerceWebsite.png";
-import MERNStackAuthentication from "../resources/images/project/MERNStackAuthenticationSystem.png";
-import Hotstar from "../resources/images/project/hotstar.png";
-import IgInsta from "../resources/images/project/IgInsta.png";
+import ECommerceAdmin from "../resources/images/project/ECommerceAdmin.webp";
+import ECommerceWebsite from "../resources/images/project/ECommerceWebsite.webp";
+import MERNStackAuthentication from "../resources/images/project/MERNStackAuthenticationSystem.webp";
+import Hotstar from "../resources/images/project/hotstar.webp";
+import IgInsta from "../resources/images/project/IgInsta.webp";
 
 const projects = [
   {
