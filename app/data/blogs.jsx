@@ -1,4 +1,4 @@
-import MernImage from "../resources/images/blog/MernImage.jpg";   
+import MernImage from "../resources/images/blog/MernImage.webp";   
 
 const blogs = [
   {
