@@ -11,14 +11,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: {
     default: "Darshit Chovatiya | Software Developer",
-    template: "Darshit Chovatiya",
+    template: "%s | Darshit Chovatiya",
   },
   description: "A passionate Software Developer from India.",
   openGraph: {
-    title: "Darshit Chovatiya",
+    title: "Darshit Chovatiya | Software Developer",
     description: "A passionate Software Developer from India.",
     siteName: "Darshit Chovatiya",
-    url: "https://darshitchovatiya-in.vercel.app/",
     type: "website",
     images: [
       {
@@ -42,7 +41,7 @@ export const metadata = {
   canonical: "https://darshitchovatiya-in.vercel.app/",
   keywords:
     "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
-  author: "Darshit Chovatiya",
+  authors: [{ name: "Darshit Chovatiya" }],
 };
 
 export default function RootLayout({ children }) {
