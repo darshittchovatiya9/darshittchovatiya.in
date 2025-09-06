@@ -9,6 +9,7 @@ import NextJS from "../../../public/next.svg";
 import Vercel from "../../../public/vercel.svg";
 import GitHub from "../../../public/Github.png";
 import MUI from "../../../public/MUI.png";
+import { IconButton } from "./IconButton";
 
 
 const Footer = () => {
@@ -53,20 +54,23 @@ const Footer = () => {
               { name: "MUI", logo: MUI, url: "https://mui.com" },
               { name: "Vercel", logo: Vercel, url: "https://vercel.com" },
             ].map((tech) => (
-              <a
-                key={tech.name}
-                href={tech.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center px-2 sm:px-3 py-1.5 sm:py-2 text-sm sm:text-base font-medium text-white rounded-xl bg-[#111111] hover:bg-[#222222] transition-all duration-200 border border-[#333] hover:border-[#FF3B00]"
-              >
-                <Image
-                  src={tech.logo}
-                  alt={tech.name}
-                  className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5 sm:mr-2"
-                />
-                {tech.name}
-              </a>
+              <IconButton >
+                <a
+                  key={tech.name}
+                  href={tech.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center"
+                >
+                  <Image
+                    src={tech.logo}
+                    alt={tech.name}
+                    className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5 sm:mr-2"
+                  />
+                  {tech.name}
+                </a>
+              </IconButton>
+
             ))}
           </div>
         </div>

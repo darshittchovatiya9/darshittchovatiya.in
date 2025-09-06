@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { SiVisualstudiocode } from "react-icons/si";
 import { LuExternalLink } from "react-icons/lu";
 import Image from 'next/image';
+import { AnimatedBorderButton } from "../common/AnimatedBorderButton";
+
 
 const OverviewSection = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -51,17 +53,21 @@ const OverviewSection = () => {
           </div>
           <div className="mt-4 flex-grow">
             <p className="text-base sm:text-lg tracking-wide leading-relaxed mb-4">
-              Namaste! 🙏 My journey is more than a portfolio; it's a window 
+              Namaste! 🙏 My journey is more than a portfolio; it's a window
               into my world, where passion meets purpose. Explore my creations.
             </p>
           </div>
-          <motion.button
-            className="text-sm sm:text-base mt-4 bg-[#1a1a1a] border border-[#333] px-6 py-3 rounded-full hover:bg-[#111111A0] transition-colors duration-300"
-            onClick={handleDownloadClick}
-            whileTap={{ scale: 0.95 }}
-          >
-            Download CV
-          </motion.button>
+          <motion.div className=" flex justify-center text-center ">
+            <AnimatedBorderButton
+              containerClassName="rounded-full"
+              as="button"
+              className="bg-[#1a1a1a] w-full text-sm sm:text-base px-6 py-3 rounded-full transition-colors duration-300"
+              onClick={handleDownloadClick}
+            >
+              <span>Download CV</span>
+            </AnimatedBorderButton>
+          </motion.div>
+
         </motion.div>
         <motion.div
           className="p-4 sm:p-6 md:p-8 border min-h-[300px] border-[#333] bg-[#111111] rounded-3xl relative overflow-hidden shadow-2xl"
