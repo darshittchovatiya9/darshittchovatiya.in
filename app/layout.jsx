@@ -54,7 +54,6 @@ export default function RootLayout({ children }) {
           href="./icon.png"
           sizes="320x320"
         />
-      
         <meta name="author" content={metadata.authors[0].name} />
         <meta name="description" content={metadata.description} />
         <meta name="robots" content={metadata.robots} />
