@@ -1,4 +1,3 @@
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
@@ -18,6 +17,7 @@ export const metadata = {
     title: "Darshit Chovatiya | Software Developer",
     description: "A passionate Software Developer from India.",
     siteName: "Darshit Chovatiya",
+    url: "https://darshitchovatiya-in.vercel.app/",
     type: "website",
     images: [
       {
@@ -54,6 +54,8 @@ export default function RootLayout({ children }) {
           href="./icon.png"
           sizes="320x320"
         />
+      
+        <meta name="author" content={metadata.authors[0].name} />
         <meta name="description" content={metadata.description} />
         <meta name="robots" content={metadata.robots} />
         <meta property="og:title" content={metadata.openGraph.title} />
@@ -77,8 +79,8 @@ export default function RootLayout({ children }) {
         />
         <meta property="og:site_name" content={metadata.openGraph.siteName} />
         <link rel="canonical" href={metadata.canonical} />
+        <link rel="me" href={metadata.instagram.url} />
         <meta name="keywords" content={metadata.keywords} />
-        <meta name="author" content={metadata.author} />
 
         {/* Umami Analytics */}
         <script
