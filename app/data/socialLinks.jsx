@@ -6,13 +6,13 @@ const socialLinks = [
   {
     id: "github",
     name: "Github",
-    url: "https://github.com/darshit15-02",
+    url: "https://github.com/darshitchovatiya",
     icon: <LuGithub size={20} color="#FFFFFF" />,
   },
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/darshit-chovatiya-0672a827a",
+    url: "http://www.linkedin.com/in/darshit-chovatiya07",
     icon: <FaLinkedinIn size={20} color="#FFFFFF" />,
   },
   {
@@ -24,7 +24,7 @@ const socialLinks = [
   {
     id: "medium",
     name: "Medium",
-    url: "https://medium.com/@darshit.patel07",
+    url: "https://medium.com/@darshit.chovatiya07",
     icon: <FaMedium size={20} color="#FFFFFF" />,
   }
 ];

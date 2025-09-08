@@ -72,7 +72,7 @@ const Projects = () => {
       <div className="flex justify-center mt-12">
         <Link
           target="_blank"
-          href="https://github.com/darshit15-02"
+          href="https://github.com/darshitchovatiya"
           className="flex items-center justify-center space-x-2 rounded-2xl hover:underline overflow-hidden bg-[#FF3B00] text-white shadow-md cursor-pointer h-fit px-12 py-4"
           onMouseEnter={() => setHoveredIndex(7)}
           onMouseLeave={() => setHoveredIndex(null)}

@@ -10,28 +10,28 @@ const projects = [
     title: "E Commerce Admin",
     description:
       "A scalable e-commerce admin dashboard with a user-friendly interface for managing products, categories, orders, and store settings, featuring analytics, image handling, and secure authentication.",
-    githubLink: "https://rebrand.ly/7bbo5mg",
+    githubLink: "https://rebrand.ly/5096icf",
   },
   {
     image: ECommerceWebsite,
     title: "E Commerce Website",
     description:
       "SPARKLECART is a modern, secure e-commerce platform built with advanced technologies for a seamless, scalable, and high-performance shopping experience.",
-    githubLink: "https://rebrand.ly/9qlcrkz",
+    githubLink: "https://rebrand.ly/s5mstv9",
   },
   {
     image: MERNStackAuthentication,
     title: "Building a Secure MERN Stack Authentication System 🚀",
     description:
       "A secure MERN stack authentication system with JWT-based login, registration, email verification, and OTP password reset.",
-    githubLink: "https://rebrand.ly/xp99uxg",
+    githubLink: "https://rebrand.ly/9s9nhbz",
   },
   {
     image: Hotstar,
     title: "Disney+ Hotstar Clone",
     description:
       "Developed a Disney+ Hotstar clone, replicating its core streaming functionalities. Features include user authentication, content browsing, and video playback with a responsive UI.",
-    githubLink: "https://rebrand.ly/3y6vpu3",
+    githubLink: "https://rebrand.ly/0gnd1xl",
   },
   {
     image: IgInsta,
