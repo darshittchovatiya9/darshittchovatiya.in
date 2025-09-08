@@ -9,13 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Darshit Chovatiya | Software Developer",
+    default: "Darshit Chovatiya | Portfolio",
     template: "%s | Darshit Chovatiya",
   },
-  description: "A passionate Software Developer from India.",
+  description: "A passionate Full-stack Developer from India.",
   openGraph: {
-    title: "Darshit Chovatiya | Software Developer",
-    description: "A passionate Software Developer from India.",
+    title: "Darshit Chovatiya | Portfolio",
+    description: "A passionate Full-stack Developer from India.",
     siteName: "Darshit Chovatiya",
     url: "https://darshitchovatiya.vercel.app/",
     type: "website",

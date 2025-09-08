@@ -1,34 +1,34 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
-import { LuGlobe,  } from "react-icons/lu";
+import { LuGlobe, } from "react-icons/lu";
 
 
-const translations = [
-  { language: "English", message: "Hey, I'm Darshit" },
-  { language: "Hindi", message: "नमस्ते, मैं दर्शित हूँ" },
-  { language: "Gujarati", message: "હાય, હું દર્શિત છું" },
-  { language: "Spanish", message: "Hola, soy Darshit" },
-  { language: "French", message: "Salut, je suis Darshit" },
-  { language: "German", message: "Hallo, ich bin Darshit" },
-  { language: "Japanese", message: "こんにちは、ダルシットです" },
-  { language: "Chinese", message: "嗨，我是 Darshit" },
-  { language: "Arabic", message: "مرحبا، أنا دارشيت" },
-  { language: "Italian", message: "Ciao, sono Darshit" },
-  { language: "Russian", message: "Привет, я Даршит" },
-];
+// const translations = [
+//   { language: "English", message: "Hey, I'm Darshit" },
+//   { language: "Hindi", message: "नमस्ते, मैं दर्शित हूँ" },
+//   { language: "Gujarati", message: "હાય, હું દર્શિત છું" },
+//   { language: "Spanish", message: "Hola, soy Darshit" },
+//   { language: "French", message: "Salut, je suis Darshit" },
+//   { language: "German", message: "Hallo, ich bin Darshit" },
+//   { language: "Japanese", message: "こんにちは、ダルシットです" },
+//   { language: "Chinese", message: "嗨，我是 Darshit" },
+//   { language: "Arabic", message: "مرحبا، أنا دارشيت" },
+//   { language: "Italian", message: "Ciao, sono Darshit" },
+//   { language: "Russian", message: "Привет, я Даршит" },
+// ];
 
 const PersonalIntroduction = () => {
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % translations.length);
-    }, 3000);
-    return () => clearInterval(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setIndex((prev) => (prev + 1) % translations.length);
+  //   }, 3000);
+  //   return () => clearInterval(timer);
+  // }, []);
 
   return (
     <div className="mt-8 md:mt-10">
@@ -57,28 +57,22 @@ const PersonalIntroduction = () => {
                 <LuGlobe className="mr-2" size={18} />
                 About me
               </h2>
-              <AnimatePresence mode="wait">
-                <motion.h1
-                  key={translations[index].language}
-                  className="mt-3 sm:mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.1 }}
-                >
-                  <span className="block text-sm sm:text-base text-gray-300 mb-1 uppercase">
-                    {translations[index].language}
-                  </span>
-                  {translations[index].message}
-                  <span className="animate-wave inline-block ml-2">👋</span>
-                </motion.h1>
-              </AnimatePresence>
+              <motion.h1
+                className="mt-3 sm:mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+              >
+                Hey, I’m Darshit
+                <span className="animate-wave inline-block ml-2">👋</span>
+              </motion.h1>
               <motion.p
                 className="mt-4 sm:mt-6 text-base sm:text-lg font-light leading-relaxed max-w-2xl"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Passionate Frontend Developer from Surat, pushing the boundaries
+                I’m Passionate Full-stack Developer from Surat, pushing the boundaries
                 of web technology to create immersive digital experiences.
               </motion.p>
             </div>
