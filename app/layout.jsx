@@ -17,11 +17,11 @@ export const metadata = {
     title: "Darshit Chovatiya | Software Developer",
     description: "A passionate Software Developer from India.",
     siteName: "Darshit Chovatiya",
-    url: "https://darshitchovatiya-in.vercel.app/",
+    url: "https://darshitchovatiya.vercel.app/",
     type: "website",
     images: [
       {
-        url: "https://darshitchovatiya-in.vercel.app/default-og-image.png",
+        url: "https://darshitchovatiya.vercel.app/default-og-image.png",
         width: 800,
         height: 600,
         alt: "Darshit Chovatiya",
@@ -38,7 +38,7 @@ export const metadata = {
     url: "https://www.instagram.com/_darshit_07_",
   },
   robots: "index,follow",
-  canonical: "https://darshitchovatiya-in.vercel.app/",
+  canonical: "https://darshitchovatiya.vercel.app/",
   keywords:
     "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
   authors: [{ name: "Darshit Chovatiya" }],
