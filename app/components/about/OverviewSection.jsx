@@ -107,7 +107,7 @@ const OverviewSection = () => {
               A secure MERN stack authentication system with JWT-based login, registration, email verification, and OTP password reset.
             </p>
             <motion.a
-              href="https://medium.com/@darshit.patel07/building-a-secure-mern-stack-authentication-system-with-jwt-email-verification-and-otp-based-bafa828d0eb1"
+              href="https://medium.com/@darshit.chovatiya07/building-a-secure-mern-stack-authentication-system-with-jwt-email-verification-and-otp-based-bafa828d0eb1"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-3 py-1 bg-white/20 hover:bg-white/30 rounded-full text-sm font-medium transition-colors duration-200"
