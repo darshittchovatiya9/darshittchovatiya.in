@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import KProvider from "./components/common/KProvider";
 import CommandBarInvokar from "./components/common/CommandBarInvokar";
 import LayoutWrapper from "./components/common/LayoutWrapper";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -95,6 +96,7 @@ export default function RootLayout({ children }) {
           </Providers>
           <CommandBarInvokar />
         </KProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
