@@ -2,33 +2,11 @@
 
 import React from "react";
 import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { LuGlobe, } from "react-icons/lu";
 
 
-// const translations = [
-//   { language: "English", message: "Hey, I'm Darshit" },
-//   { language: "Hindi", message: "नमस्ते, मैं दर्शित हूँ" },
-//   { language: "Gujarati", message: "હાય, હું દર્શિત છું" },
-//   { language: "Spanish", message: "Hola, soy Darshit" },
-//   { language: "French", message: "Salut, je suis Darshit" },
-//   { language: "German", message: "Hallo, ich bin Darshit" },
-//   { language: "Japanese", message: "こんにちは、ダルシットです" },
-//   { language: "Chinese", message: "嗨，我是 Darshit" },
-//   { language: "Arabic", message: "مرحبا، أنا دارشيت" },
-//   { language: "Italian", message: "Ciao, sono Darshit" },
-//   { language: "Russian", message: "Привет, я Даршит" },
-// ];
-
 const PersonalIntroduction = () => {
-  // const [index, setIndex] = useState(0);
-
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setIndex((prev) => (prev + 1) % translations.length);
-  //   }, 3000);
-  //   return () => clearInterval(timer);
-  // }, []);
 
   return (
     <div className="mt-8 md:mt-10">

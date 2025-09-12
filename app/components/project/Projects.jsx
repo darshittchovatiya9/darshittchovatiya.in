@@ -28,6 +28,7 @@ const Projects = () => {
                 alt="image"
                 loading="eager"
                 className="w-full h-[180px] md:h-full object-cover"
+                priority
               />
             </div>
           </div>

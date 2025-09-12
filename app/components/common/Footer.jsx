@@ -46,6 +46,7 @@ const Footer = () => {
                     src={tech.logo}
                     alt={tech.name}
                     className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5 sm:mr-2"
+                    priority
                   />
                   {tech.name}
                 </a>

@@ -28,6 +28,7 @@ const Blogs = () => {
                 alt={blog.title}
                 fill
                 className="object-cover hover:opacity-90 transition duration-300"
+                priority
               />
             </div>
             <p className="font-medium text-white sm:text-lg mt-2">

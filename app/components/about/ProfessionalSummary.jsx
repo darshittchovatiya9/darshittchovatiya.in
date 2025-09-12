@@ -34,6 +34,7 @@ const ProfessionalSummary = ({ works, skills }) => {
                 src={work.image}
                 alt={work.companyName}
                 className="h-12 w-12 object-cover bg-[#333] border border-[#333] bg-opacity-30 p-2 rounded-md"
+                priority   
               />
               <div className="flex w-full flex-col">
                 <p className="hidden sm:block font-medium">
@@ -77,6 +78,7 @@ const ProfessionalSummary = ({ works, skills }) => {
                     src={skill.image}
                     alt={skill.title}
                     className="w-4 h-4"
+                    priority
                   />
                   <span className="text-black">{skill.title}</span>
                 </div>
@@ -94,6 +96,7 @@ const ProfessionalSummary = ({ works, skills }) => {
                     src={skill.image}
                     alt={skill.title}
                     className="w-4 h-4"
+                    priority
                   />
                   <span className="text-black">{skill.title}</span>
                 </div>
@@ -111,6 +114,7 @@ const ProfessionalSummary = ({ works, skills }) => {
                     src={skill.image}
                     alt={skill.title}
                     className="w-4 h-4"
+                    priority
                   />
                   <span className="text-black">{skill.title}</span>
                 </div>
@@ -128,6 +132,7 @@ const ProfessionalSummary = ({ works, skills }) => {
                     src={skill.image}
                     alt={skill.title}
                     className="w-4 h-4"
+                    priority
                   />
                   <span className="text-black">{skill.title}</span>
                 </div>

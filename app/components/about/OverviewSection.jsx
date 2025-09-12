@@ -76,10 +76,11 @@ const OverviewSection = () => {
           <div className="absolute inset-0">
             {!isVideoLoaded && (
               <Image
-                src="/MERN-Stack-Authentication-System.png"
+                src="/MERN-Stack-Authentication-System.webp"
                 layout="fill"
                 objectFit="cover"
                 alt="Video placeholder"
+                priority   
               />
             )}
             <video
