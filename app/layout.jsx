@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
         <link
           rel="icon"
           type="image/x-icon"
-          href="./icon.png"
+          href="/favicon.ico"
           sizes="320x320"
         />
         <meta name="author" content={metadata.authors[0].name} />
