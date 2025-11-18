@@ -14,5 +14,5 @@ This project is licensed under the MIT License. All rights reserved.
 
 For permissions or inquiries, please contact:
 
-**Author**: Darshit Chovatiya  
+**Author**: Darshitt Chovatiya  
 **Email**: darshit.jbs07@gmail.com
