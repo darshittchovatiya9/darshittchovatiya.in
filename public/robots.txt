@@ -4,4 +4,4 @@ Allow: /
 
 
 # Sitemaps
-Sitemap: https://darshitchovatiya.vercel.app/sitemap.xml
+Sitemap: https://darshittchovatiya.vercel.app/sitemap.xml
