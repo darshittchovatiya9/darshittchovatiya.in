@@ -41,7 +41,7 @@ const PersonalIntroduction = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                Hey, I’m Darshit
+                Hey, I’m Darshitt
                 <span className="animate-wave inline-block ml-2">👋</span>
               </motion.h1>
               <motion.p
