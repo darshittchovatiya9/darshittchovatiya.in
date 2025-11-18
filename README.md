@@ -1,6 +1,6 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/darshitchovatiya/darshittchovatiya)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/darshitchovatiya/darshitchovatiya)
 
-# darshitchovatiya
+# Darshitt Chovatiya
 
 - **Library**: [React](https://react.dev/)
 - **Framework**: [Next.js](https://nextjs.org/)
