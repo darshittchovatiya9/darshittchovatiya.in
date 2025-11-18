@@ -80,7 +80,7 @@ const Footer = () => {
 
       <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-[#333] flex flex-col sm:flex-row justify-center items-center">
         <p className="text-white/80 mb-3 sm:mb-0 text-sm sm:text-base">
-          &copy; {new Date().getFullYear()} Darshit Chovatiya All rights reserved.
+          &copy; {new Date().getFullYear()} Darshitt Chovatiya All rights reserved.
         </p>
       </div>
     </footer>
