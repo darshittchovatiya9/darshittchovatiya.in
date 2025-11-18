@@ -111,7 +111,7 @@ const Navbar = () => {
                 ~
                 {pathname === "/" && (
                   <span className="ml-1 md:text-lg tracking-wide">
-                    darshit
+                    darshitt
                   </span>
                 )}
               </Link>
@@ -261,7 +261,7 @@ const Navbar = () => {
                 transition={{ delay: 0.4 }}
               >
                 <p className="text-white/80 text-sm">
-                  &copy; {new Date().getFullYear()} Darshit. All rights
+                  &copy; {new Date().getFullYear()} Darshitt. All rights
                   reserved.
                 </p>
               </motion.div>
