@@ -9,39 +9,39 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Darshit Chovatiya | Portfolio",
-    template: "%s | Darshit Chovatiya",
+    default: "Darshitt Chovatiya | Portfolio",
+    template: "%s | Darshitt Chovatiya",
   },
   description: "A passionate Full-stack Developer from India.",
   openGraph: {
-    title: "Darshit Chovatiya | Portfolio",
+    title: "Darshitt Chovatiya | Portfolio",
     description: "A passionate Full-stack Developer from India.",
-    siteName: "Darshit Chovatiya",
-    url: "https://darshitchovatiya.vercel.app/",
+    siteName: "Darshitt Chovatiya",
+    url: "https://darshittchovatiya.vercel.app/",
     type: "website",
     images: [
       {
-        url: "https://darshitchovatiya.vercel.app/default-og-image.webp",
+        url: "https://darshittchovatiya.vercel.app/default-og-image.webp",
         width: 800,
         height: 600,
-        alt: "Darshit Chovatiya",
+        alt: "Darshitt Chovatiya",
       },
     ],
     profile: {
-      firstName: "Darshit",
+      firstName: "Darshitt",
       lastName: "Chovatiya",
-      username: "Darshit Chovatiya",
+      username: "Darshitt Chovatiya",
       gender: "male",
     },
   },
   instagram: {
-    url: "https://www.instagram.com/_darshit_07_",
+    url: "https://www.instagram.com/_darshitt_9_",
   },
   robots: "index,follow",
-  canonical: "https://darshitchovatiya.vercel.app/",
+  canonical: "https://darshittchovatiya.vercel.app/",
   keywords:
     "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
-  authors: [{ name: "Darshit Chovatiya" }],
+  authors: [{ name: "Darshitt Chovatiya" }],
 };
 
 export default function RootLayout({ children }) {
