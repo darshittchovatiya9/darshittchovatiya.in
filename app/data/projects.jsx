@@ -3,8 +3,26 @@ import ECommerceWebsite from "../resources/images/project/ECommerceWebsite.webp"
 import MERNStackAuthentication from "../resources/images/project/MERNStackAuthenticationSystem.webp";
 import Hotstar from "../resources/images/project/hotstar.webp";
 import IgInsta from "../resources/images/project/IgInsta.webp";
+import Educore from "../resources/images/project/educore.webp";
+import Morph from "../resources/images/project/morph.webp";
 
 const projects = [
+  {
+    image: Educore,
+    title: "Edu Core - Admin Dashboard",
+    description:
+      "Edu Core is an advanced admin dashboard for educational institutions, offering comprehensive management of students, courses, and faculty with real-time analytics and reporting features.",
+    url: "https://edu-core-admin.vercel.app/",
+    githubLink: "https://rebrand.ly/scgfftl"
+  },
+  {
+    image: Morph,
+    title: "Morph - Creative UI Library",
+    description:
+      "Morph is a creative UI library designed for building modern web applications with a focus on usability and aesthetics.",
+    url: "https://morphoui.vercel.app/",
+    githubLink: "https://rebrand.ly/rahwedl"
+  },
   {
     image: ECommerceAdmin,
     title: "E Commerce Admin",

@@ -2,6 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://darshitchovatiya.vercel.app
 
 # Sitemaps
-Sitemap: https://darshittchovatiya.vercel.app/sitemap.xml
+Sitemap: https://darshitchovatiya.vercel.app/sitemap.xml
