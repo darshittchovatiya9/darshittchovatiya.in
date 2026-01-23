@@ -12,7 +12,7 @@ const socialLinks = [
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "www.linkedin.com/in/darshittchovatiya9",
+    url: "https://www.linkedin.com/in/darshittchovatiya9/",
     icon: <FaLinkedinIn size={20} color="#FFFFFF" />,
   },
   {
