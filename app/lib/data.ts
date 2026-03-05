@@ -15,8 +15,7 @@ export const resumeData = {
   technicalSkills: {
     "Front-End": ["React.js", "Next.js", "JavaScript", "TypeScript"],
     "Back-End": ["Node.js", "Express.js", "NestJS"],
-    "Databases": ["MongoDB", "MySQL", "PostgreSQL"],
-    "Top Skills": ["Firebase", "Redux", "Mongoose"]
+    "Databases": ["MongoDB", "MySQL", "PostgreSQL"]
   },
   whatIBring: [
     "Strong understanding of software architecture and scalable systems",
