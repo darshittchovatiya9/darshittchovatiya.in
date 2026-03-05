@@ -7,9 +7,9 @@ export const resumeData = {
     summary: "I'm a skilled and proficient MERN Stack Developer with a proven track record of building secure, scalable, and high-performance web applications. I’m passionate about solving complex problems through clean code, modern frameworks, and innovative solutions, and I thrive in dynamic and collaborative environments.",
     location: "Surat, Gujarat, India",
     email: "darshitc18@gmail.com",
-    github: "https://github.com/darshittchovatiya9",
     links: [
-      { label: "LinkedIn", url: "https://www.linkedin.com/in/darshittchovatiya9" }
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/darshittchovatiya9" },
+      { label: "GitHub", url: "https://github.com/darshittchovatiya9" }
     ]
   },
   technicalSkills: {

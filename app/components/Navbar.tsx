@@ -1,10 +1,9 @@
 'use client';
-
+ 
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring, AnimatePresence } from 'motion/react';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
-import { resumeData } from '@/app/lib/data';
-
+ 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -14,21 +13,22 @@ export default function Navbar() {
     damping: 30,
     restDelta: 0.001
   });
-
+ 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
+ 
   const navLinks = [
-    { name: 'Impact', href: '#impact' },
     { name: 'Projects', href: '#projects' },
     { name: 'Experience', href: '#experience' },
-    { name: 'Skill', href: '#skill' },
+    { name: 'Impact', href: '#impact' },
+    { name: 'Toolkit', href: '#toolkit' },
     { name: 'Education', href: '#education' },
+    { name: 'Contact', href: '#contact' },
   ];
-
+ 
   return (
     <>
       <motion.div
@@ -45,9 +45,9 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold tracking-tighter text-white"
           >
-            Darshit<span className="text-emerald-500">.</span>
+            DC<span className="text-emerald-500">.</span>
           </motion.div>
-
+ 
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
@@ -58,20 +58,8 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <div className="w-[1px] h-4 bg-white/10" />
-            <div className="flex items-center gap-4">
-              <a href={resumeData.basics.links[0].url} target="_blank" rel="noreferrer" className="text-white/40 hover:text-white transition-colors">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a href={`mailto:${resumeData.basics.email}`} className="text-white/40 hover:text-white transition-colors">
-                <Mail className="w-4 h-4" />
-              </a>
-              <a href={resumeData.basics.github} target="_blank" rel="noreferrer" className="text-white/40 hover:text-white transition-colors">
-                <Github className="w-4 h-4" />
-              </a>
-            </div>
           </div>
-
+ 
           <button
             className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
@@ -79,7 +67,7 @@ export default function Navbar() {
             {isOpen ? <X /> : <Menu />}
           </button>
         </div>
-
+ 
         {/* Mobile Menu */}
         <AnimatePresence>
           {isOpen && (
@@ -108,3 +96,5 @@ export default function Navbar() {
     </>
   );
 }
+ 
+ 
