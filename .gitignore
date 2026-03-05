@@ -1,6 +1,7 @@
-#dependencies
-node_modules
+node_modules/
 .next/
-
-#directory
+coverage/
 .DS_Store
+*.log
+.env*
+!.env.example
