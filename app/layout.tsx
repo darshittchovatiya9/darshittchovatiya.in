@@ -12,6 +12,12 @@ export const metadata = {
 
   description: "A passionate Full-stack Developer from India.",
 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+
   openGraph: {
     title: "Darshit Chovatiya | Portfolio",
 
@@ -19,13 +25,13 @@ export const metadata = {
 
     siteName: "Darshit Chovatiya",
 
-    url: "https://darshitchovatiya.vercel.app/",
+    url: "https://darshit-chovatiya.vercel.app/",
 
     type: "website",
 
     images: [
       {
-        url: "https://darshitchovatiya.vercel.app/default-og-image.webp",
+        url: "https://darshit-chovatiya.vercel.app/default-og-image.webp",
 
         width: 800,
 
@@ -48,7 +54,7 @@ export const metadata = {
 
   robots: "index,follow",
 
-  canonical: "https://darshitchovatiya.vercel.app/",
+  canonical: "https://darshit-chovatiya.vercel.app/",
 
   keywords:
     "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
@@ -61,47 +67,10 @@ import { ReactNode } from "react";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="/favicon.ico"
-          sizes="320x320"
-        />
-        <meta name="author" content={metadata.authors[0].name} />
-        <meta name="description" content={metadata.description} />
-        <meta name="robots" content={metadata.robots} />
-        <meta property="og:title" content={metadata.openGraph.title} />
-        <meta
-          property="og:description"
-          content={metadata.openGraph.description}
-        />
-        <meta property="og:url" content={metadata.openGraph.url} />
-        <meta property="og:image" content={metadata.openGraph.images[0].url} />
-        <meta
-          property="og:image:alt"
-          content={metadata.openGraph.images[0].alt}
-        />
-        <meta
-          property="og:image:width"
-          content={String(metadata.openGraph.images[0].width)}
-        />
-        <meta
-          property="og:image:height"
-          content={String(metadata.openGraph.images[0].height)}
-        />
-        <meta property="og:site_name" content={metadata.openGraph.siteName} />
-        <link rel="canonical" href={metadata.canonical} />
-        <meta name="keywords" content={metadata.keywords} />
-
-        {/* Umami Analytics */}
-        <script
-          defer
-          src="https://analytics.umami.is/script.js"
-          data-website-id="58bd2a1c-b5e1-4842-b56b-9d1054f374c8"
-        />
-      </head>
-      <body suppressHydrationWarning className={`${inter.className} bg-black text-white`}>
+      <body
+        suppressHydrationWarning
+        className={`${inter.className} bg-black text-white`}
+      >
         {children}
       </body>
     </html>
